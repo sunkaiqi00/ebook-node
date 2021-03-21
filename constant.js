@@ -1,4 +1,4 @@
-const resUrl = 'http://192.168.1.234:7070';
+const resUrl = 'http://192.168.3.20:7070';
 const mp3FilePath = 'E:/nginxstatic/resource/mp3';
 const category = [
   'Biomedicine',

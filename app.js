@@ -11,7 +11,10 @@ const {
   createCategoryData,
   handleData
 } = require('./utils');
-const { resUrl, category } = require('./constant');
+const { 
+  resUrl, 
+  category
+} = require('./constant');
 app.use(cors());
 app.get('/', (req, res) => {
   res.send('hello world');

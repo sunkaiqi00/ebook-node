@@ -1,9 +1,14 @@
 const mysql = require('mysql');
+const {  
+  dbHost,
+  dbUser,
+  dbPwd 
+} = require('./constant');
 function connect() {
   return mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
+    host: dbHost,
+    user: dbUser,
+    password: dbPwd,
     database: 'book'
   });
 }

@@ -6,7 +6,7 @@ if(env === 'dev') {
   resUrl = 'http://192.168.3.20:7070';
   mp3FilePath = 'E:/nginxstatic/resource/mp3';
 }else{
-  resUrl = 'http://http://112.74.181.88';
+  resUrl = 'http://112.74.181.88';
   mp3FilePath = '/root/nginx/upload/mp3';
 }
 

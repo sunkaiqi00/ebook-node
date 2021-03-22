@@ -1,3 +1,3 @@
-const enc = 'prod'
+const env = 'prod'
 
 module.export = env

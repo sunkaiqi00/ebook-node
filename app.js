@@ -276,7 +276,8 @@ app.get('/voice', (req, res) => {
 });
 
 const server = app.listen(3000, () => {
-  const host = server.address().address;
-  const port = server.address().port;
-  console.log('server is listening at http://%s:%s', host, port);
-});
+  const host = server.address().address
+  const port = server.address().port
+
+  console.log('server is listening at http://%s:%s', host, port)
+})
